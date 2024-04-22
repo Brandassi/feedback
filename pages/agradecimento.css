@@ -29,8 +29,25 @@ body{
 .card{
     background: var(--black-gradient);
     max-width: 412px;
-    padding: 32px;
+    padding: 45px 32px;
     border-radius: 30px;
+    text-align: center;
+}
+
+.card img{
+    margin-bottom: 32px;
+}
+
+.card .paragrafo_nota{
+    padding: 4px 18px;
+    background-color: var(--dark-blue);
+    width: fit-content;
+    margin-inline: auto;
+    border-radius: 22px;
+    
+    font-size: 15px;
+    color: var(--orange);
+    margin-bottom: 32px;
 }
 
 .card h1{
